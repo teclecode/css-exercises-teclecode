@@ -1,4 +1,15 @@
-button {
+.button-one {
+    background-color: rgb(165, 49, 25);
+    color: rgb(255, 255, 255);
+}
+
+.button-two {
+    background-color: rgb(45, 42, 74);
+    color: rgb(255, 255, 255);
+}
+
+.button-one,
+.button-two {
     font-size: 28px;
     font-family: Helvetica, "Times New Roman, sans-serif";
 }
