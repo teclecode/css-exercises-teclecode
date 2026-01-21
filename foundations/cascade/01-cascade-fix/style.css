@@ -3,7 +3,8 @@ body {
 }
 
 .para,
-.small-para {
+.small-para,
+.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
 }
@@ -12,7 +13,8 @@ body {
   font-size: 14px;
 }
 
-.para {
+.para,
+.text {
   font-size: 22px;
 }
 
@@ -28,14 +30,7 @@ body {
   font-size: 20px;
 }
 
-.child {
+.text .child {
   color: rgb(0, 0, 0);
-  font-weight: 800;
   font-size: 14px;
-}
-
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
 }
