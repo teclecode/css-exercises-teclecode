@@ -54,11 +54,13 @@ ul {
 .right-side,
 ul {
   display: flex;
+  gap: 16px;
 }
 
 .header {
   justify-content: space-between;
   align-items: center;
+  padding: 8px;
 }
 
 ul {
